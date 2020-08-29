@@ -40,4 +40,4 @@ module.exports = function(sequelize, dataTypes) {
     let Movie = sequelize.define(alias, cols, config);
 
     return Movie;
-};
+}
