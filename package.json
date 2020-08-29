@@ -1,7 +1,7 @@
 {
   "name": "apis_movies",
   "version": "1.0.0",
-  "description": "",
+  "description": "Ejercicio API-Movies",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,17 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
+    "express": "^4.17.1",
     "mysql2": "^2.1.0",
     "sequelize": "^6.3.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmbey/api-movies.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jmbey/api-movies/issues"
+  },
+  "homepage": "https://github.com/jmbey/api-movies#readme"
 }
