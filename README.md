@@ -3,15 +3,15 @@ Ejercicio API-Movies
 
 End points
 
-Movies
-Obtener todos los registros  -->>  /movies/all
-Obtener un registro  -->> /movies/detail/id
-Crear un nuevo registro  -->> /movies/create
+/movies -->
+Obtener todos los registros  -->>  /
+Obtener un registro  -->> /detail/:id
+Crear un nuevo registro  -->> /create
 
-Series
-Obtener todos los registros  -->>  /series/all
-Obtener un registro   -->>  /series/detail/id
-Crear un nuevo registro   -->>  /series/create
+/series -->
+Obtener todos los registros  -->>  /
+Obtener un registro   -->>  /detail/:id
+Crear un nuevo registro   -->>  /create
 
 
 

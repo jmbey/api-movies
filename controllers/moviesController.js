@@ -11,7 +11,7 @@ module.exports = {
     },
     getById: function (req, res) {
         db.Movie.findByPk(req.params.id)
-        then(function (result) {
+        .then(function (result) {
             return res.status(200).json(result)
         })
     },

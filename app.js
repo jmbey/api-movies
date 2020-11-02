@@ -12,9 +12,9 @@ app.use(express.urlencoded({extended: false }));
 app.use('/movies', moviesRouter);
 app.use('/series', seriesRouter);
 
-app.listen(3000, function (){
-    console.log('El servidor esta corriendo en el puerto 3000')
-    console.log('Link --> http://localhost:3000')
+app.listen(3001, function (){
+    console.log('El servidor esta corriendo en el puerto 3001')
+    console.log('Link --> http://localhost:3001')
 })
 
 
